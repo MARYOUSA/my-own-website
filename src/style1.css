@@ -1,12 +1,12 @@
 /*base styles (extra small devices - mobile) */
 /*css rules*/
 /*small devices (tablets) */
-@media screen and min-width: 576px) {
+@media screen and (min-width: 576px) {
     html {
         font-size: 14px;
-        ;
         background-color: #ff7db0;
     }
+
     body {
         background-color: #e8bdd5;
         font-family: "Bebas Neue", sans-serif;
@@ -18,13 +18,12 @@
         font-size: 1em;
     }
 
-.box{
-    width: 150px;
-    height: 100px;
-}
-    #navbar{
-
+    .box {
+        width: 150px;
+        height: 100px;
     }
+
+    #navbar {}
 
     h1 {
         font-family: "Teko", sans-serif;
@@ -36,7 +35,7 @@
         position: relative;
         margin-bottom: 30px;
     }
-    
+
     h2 {
         font-family: "Teko", sans-serif;
         font-size: 2rem;
@@ -44,6 +43,7 @@
         line-height: 50px;
         letter-spacing: 0em;
     }
+
     .smalltext {
         background-color: white;
         font-family: "Teko", sans-serif;
@@ -51,8 +51,8 @@
         font-weight: 400;
         line-height: 14px;
         color: black
-    
     }
+
     #hero-image {
         object-fit: cover;
         width: 100%;
@@ -60,89 +60,93 @@
         border-bottom-right-radius: 200%;
         border-bottom-left-radius: 200%;
     }
+
     #hero-image-wrapper {
         width: 5%;
     }
 }
 
 
-    /*medium devices/tablet/laptops)*/
-    @media screen and (min: width 768px) {
-        html {
-            font-size: 16px;
-            ;
-            background-color: #ff7db0;
-        }
-    }
-
-    /*large devices (desktops) */
-    @media screen and (min-width:992px) {
-        html {
-            font-size: 16px;
-            ;
-            background-color: #ff7db0;
-        }
-    }
-
-
+/*medium devices/tablet/laptops)*/
+@media screen and (min-width: 768px) {
     html {
         font-size: 16px;
-        ;
+
         background-color: #ff7db0;
     }
-    body {
-        background-color: #e8bdd5;
-        font-family: "Bebas Neue", sans-serif;
-        font-weight: 400;
-        line-height: 24px;
-        color: rgb(34, 41, 54);
-        margin: 0;
-        padding: 0;
-        font-size: 1em;
-    }
+}
 
-    h1 {
-        font-family: "Teko", sans-serif;
-        font-size: 2.5rem;
-        font-weight: 700;
-        line-height: 50px;
-        letter-spacing: 0em;
-        margin-top: 2px;
-        position: relative;
-        margin-bottom: 30px;
+/*large devices (desktops) */
+@media screen and (min-width:992px) {
+    html {
+        font-size: 16px;
+
+        background-color: #ff7db0;
     }
-    
-    h2 {
-        font-family: "Teko", sans-serif;
-        font-size: 2rem;
-        font-weight: 700;
-        line-height: 50px;
-        letter-spacing: 0em;
-    }
-    .smalltext {
-        background-color: white;
-        font-family: "Teko", sans-serif;
-        font-size: 12px;
-        font-weight: 400;
-        line-height: 14px;
-        color: black
-    
-    }
-    #hero-image {
-        object-fit: cover;
-        width: 100%;
-        height: 120px;
-        border-bottom-right-radius: 200%;
-        border-bottom-left-radius: 200%;
-    }
-    #hero-image-wrapper {
-        width: 5%;
-    }
-    
+}
+
+
+html {
+    font-size: 16px;
+
+    background-color: #ff7db0;
+}
+
+body {
+    background-color: #e8bdd5;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgb(34, 41, 54);
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+}
+
+h1 {
+    font-family: "Teko", sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0em;
+    margin-top: 2px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-family: "Teko", sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0em;
+}
+
+.smalltext {
+    background-color: white;
+    font-family: "Teko", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    color: black
+}
+
+#hero-image {
+    object-fit: cover;
+    width: 100%;
+    height: 120px;
+    border-bottom-right-radius: 200%;
+    border-bottom-left-radius: 200%;
+}
+
+#hero-image-wrapper {
+    width: 5%;
+}
+
 
 .bigtext {
-   height: 350px;
-    background-color: #e8bdd5;
+    height: 350px;
+    /* background-color: #e8bdd5; */
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-size: 18px;
@@ -161,13 +165,8 @@
     padding: 32px 20px 32px 20px;
 }
 
-
-
-
-
 #hi-and-name {
-    margin-top;
-    : 52px
+    margin-top: 52px;
 }
 
 #contact-button {
@@ -289,7 +288,8 @@
     width: 100%;
     padding: 12px;
     height: 44px;
-    background-color: white border-radius: 8px;
+    background-color: white;
+    border-radius: 8px;
     border: 2px solid #2f2f2f;
     color: #2f2f2f;
     font-family: "Teko", sans-serif;
@@ -345,16 +345,18 @@
     font-weight: 400;
     line-height: 24px;
 }
-#minimal-line{
+
+#minimal-line {
     margin-top: -16px;
     position: absolute;
-    z-index: -1;
+    z-index: 2;
 }
 
-.box{
+.box {
     width: 150px;
     height: 150px;
 }
-#box1{
+
+#box1 {
     background-color: #ff7db0;
 }
